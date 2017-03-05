@@ -1,0 +1,30 @@
+{
+  "name": "audit-receiver-nodejs",
+  "version": "1.0.0",
+  "description": "A nodejs app that receives messages from RabbitMQ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node receive.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sadhal/audit-receiver-nodejs.git"
+  },
+  "keywords": [
+    "RabbitMQ",
+    "Express"
+  ],
+  "author": "Sadmir Halilovic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sadhal/audit-receiver-nodejs/issues"
+  },
+  "homepage": "https://github.com/sadhal/audit-receiver-nodejs",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "request": "^2.79.0",
+    "amqplib": "latest"
+  }
+}
